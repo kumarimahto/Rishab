@@ -1,0 +1,320 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: "Dongle-light";
+    src: url("Dongle/Dongle-regular.ttf");
+}
+
+@font-face {
+    font-family: "Dongle-regular";
+    src: url("Dongle/Dongle-light.ttf");
+}
+
+@font-face {
+    font-family: "Dongle-bold";
+    src: url("Dongle/Dongle-bld.ttf");
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    background-color: #fff;
+    align-items: center;
+    background-image:url(666.png);
+}
+
+.logo img {
+    max-width: 30%;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu ul {
+    margin-left: auto; 
+}
+
+.nav-menu li:last-child {
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-family: "Dongle-bold";
+    font-size: 1.3rem;
+    color: #37fe1d;
+    transition: all ease 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #0e0f0e;
+}
+
+.hero {
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #0b2bfc;
+}
+
+.hero-content h1 {
+    font-family: "Dongle-bold";
+    font-size: 3rem;
+}
+
+.hero-content p {
+    font-family: "Dongle-regular";
+    font-size: 1.3rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hero-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #131212;
+    background-color: rgb(189, 200, 36);
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: all ease 0.3s;
+}
+
+.hero-button:hover {
+    background-color: rgb(117, 123, 123);
+}
+
+.Destinations, .Packages {
+    font-family: "Dongle-bold";
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-bottom: 40px;
+}
+
+.Destinations h2, .Packages h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.Destinations-grid, .Packages-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.Destinations-item img {
+    width: 100px; 
+    height: auto; 
+    border-radius: 50%; 
+    object-fit: cover; 
+}
+
+
+.Destinations-item, .Packages-item {
+    flex: 1 1 calc(33% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.Destinations-item img, .Packages-item img {
+    width: 100%;
+    height: auto;
+}
+
+.Destinations-item h3, .Packages-item h3 {
+    font-family: "Dongle-bold";
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.holiday-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: space-around; 
+}
+
+.holiday {
+    flex: 1 1 calc(25% - 20px); 
+    box-sizing: border-box; 
+    text-align: center; 
+}
+
+.holiday img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+
+.Destinations-item p, .Packages-item p {
+    font-family: "Dongle-regular";
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 10px;
+}
+#video {
+    padding: 20px;
+    text-align: center;
+}
+
+.video-container-wrapper {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.video-container {
+    flex: 1 1 45%;
+    max-width: 560px; 
+}
+.contact {
+    background-color: #fad2fd; 
+    padding: 50px 20px;
+    text-align: center; 
+}
+
+.contact .sub-title span {
+    font-size: 2rem; 
+    font-family: "Dongle-bold";
+    color: #0277bd; 
+    border-bottom: 2px solid #0277bd; 
+    padding-bottom: 10px; 
+}
+
+.contact-box {
+    background-color: #b9f1f6; 
+    border: 1px solid #cfd8dc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 30px; 
+    max-width: 600px; 
+    margin: 20px auto; 
+}
+
+.contact-box h2 {
+    font-size: 1.8rem; 
+    color: #ee3106; 
+    margin-bottom: 20px; 
+}
+
+.contact-box p {
+    font-size: 1rem; 
+    color: #424242; 
+    margin-bottom: 15px; 
+}
+
+.contact-box a {
+    color: #101210; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.contact-box a:hover {
+    text-decoration: underline; 
+}
+
+.contact-box h3 {
+    font-size: 1.5rem; 
+    color: #0c6809; 
+    margin: 20px 0; 
+}
+
+.contact-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-box input, .contact-box textarea {
+    width: 100%; 
+    max-width: 500px; 
+    padding: 15px;
+    border: 1px solid #b0bec5; 
+    border-radius: 8px; 
+    margin-bottom: 20px; 
+    font-size: 1rem; 
+}
+
+.contact-box button {
+    padding: 15px 30px;
+    background-color: #0288d1; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem; 
+    transition: background-color 0.3s ease; 
+}
+
+.contact-box button:hover {
+    background-color: #f620b6;
+}
+
+h3{
+    color: #f60808;
+}
+h2{
+    color: #016f15;
+}
+p{
+    color: rgb(75, 2, 139);
+}
+p{
+    color: #ed0c0c;
+    background-color: #eef3f6;
+}
+p2{
+    color: darkblue;
+    text-align:center ;
+}
